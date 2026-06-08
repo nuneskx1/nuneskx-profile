@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000000; 
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-size: 15px;
+    background: linear-gradient(to right, #ffffff , #525252);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+}
+
+.menu-item {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 200px;
+
+    width: 50px;
+    padding: 9px 20px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    font-size: 10px;
+    cursor: pointer;
+}
+.menu-item2 {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    justify-content: center !important;
+    gap: 8px !important;
+    margin: 0 auto;
+
+    width: 50px !important;
+    padding: 9px 20px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    font-size: 10px;
+    cursor: pointer;
+}

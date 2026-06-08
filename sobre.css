@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000000; 
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-size: 15px;
+    background: linear-gradient(to right, #ffffff , #525252);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+
+    width: 20px;
+    padding: 9px 20px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.menu-item i {
+    font-size: 10px;
+    color: #525252;
+}
+
+.menu-item span {
+    font-size: 10px;
+}
+.content{
+    max-width: 300px;
+    margin: 10px auto;
+    color: white;
+
+    font-size: 10px;
+    line-height: 1.8;
+
+    font-family: Arial, sans-serif;
+}
+
+.conhecimento {
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+    max-width: 200px;
+    margin: 20px auto;
+}
+.conhecer h2 {
+    color: #5d7eb8;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: space-around;
+    justify-content: space-around;
+    left: 10%;
+     transform: translateX(-10%);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 10px;
+
+    
+    width: 10px;
+    padding: 9px 60px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    cursor: pointer;
+}
