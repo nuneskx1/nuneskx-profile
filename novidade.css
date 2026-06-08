@@ -4,10 +4,100 @@ body{
     font-family: Arial, sans-serif;
     background: #000000; 
 }
+
+.perfil{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    font-size: 15px;
+    background: linear-gradient(to right, #ffffff , #525252);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
 .foto{
     width: 50px;
     height: 50px;
     border-radius: 90%;
     object-fit: cover;
     border: 1px solid #ffffff;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 auto;
+
+    max-width: 240px;
+    width: min(100%, 240px);
+    padding: 9px 20px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.menu-item i {
+    font-size: 12px;
+    color: #525252;
+}
+
+.menu-item span {
+    font-size: 12px;
+}
+
+.content{
+    max-width: 300px;
+    margin: 10px auto;
+    color: white;
+
+    font-size: 12px;
+    line-height: 1.8;
+
+    font-family: Arial, sans-serif;
+}
+
+.conhecimento {
+    margin-top: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+    max-width: 240px;
+    margin: 20px auto;
+}
+.conhecer h2 {
+    color: #5d7eb8;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 14px;
+    width: min(100%, 240px);
+    padding: 9px 16px;
+
+    border: 1px solid #525252;
+    border-radius: 16px;
+
+    color: #525252;
+    background: transparent;
+
+    cursor: pointer;
 }

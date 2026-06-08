@@ -30,10 +30,9 @@ h2{
     gap: 8px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 200px;
-
-    width: 50px;
+    grid-template-columns: auto auto;
+    max-width: 240px;
+    width: min(100%, 240px);
     padding: 9px 20px;
 
     border: 1px solid #525252;
@@ -42,19 +41,20 @@ h2{
     color: #525252;
     background: transparent;
 
-    font-size: 10px;
+    font-size: 12px;
     cursor: pointer;
 }
 .menu-item2 {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
-    justify-content: center !important;
-    gap: 8px !important;
+    justify-content: center;
+    gap: 8px;
     margin: 0 auto;
 
-    width: 50px !important;
+    max-width: 240px;
+    width: min(100%, 240px);
     padding: 9px 20px;
 
     border: 1px solid #525252;
@@ -63,6 +63,6 @@ h2{
     color: #525252;
     background: transparent;
 
-    font-size: 10px;
+    font-size: 12px;
     cursor: pointer;
 }
